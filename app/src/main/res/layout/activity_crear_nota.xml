@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#918D8D"
+    android:orientation="vertical"
+    tools:context=".CrearNotaActivity">
+
+    <EditText
+        android:id="@+id/txtTituloNotaAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="Titulo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtContenidoNotaAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Contenido Nota"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/txtFechaNotaAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="dd/mm/yyyy"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/btnCrearNotaAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Guardar" />
+</LinearLayout>
